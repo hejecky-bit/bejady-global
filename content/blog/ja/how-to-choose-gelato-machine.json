@@ -1,0 +1,33 @@
+{
+  "title": "ビジネスに最適な業務用ジェラートマシンの選び方",
+  "slug": "how-to-choose-gelato-machine",
+  "language": "ja",
+  "publishedAt": "2026-06-03T00:00:00Z",
+  "author": "BEJADY チーム",
+  "excerpt": "シリンダー数、生産能力、コンプレッサーの種類、予算に応じた業務用ジェラートマシンの選び方を総合的に解説します。",
+  "categories": ["gelato-guide", "business"],
+  "body": [
+    { "style": "h2", "children": [{ "text": "ジェラートマシン選びが重要な理由" }] },
+    { "style": "normal", "children": [{ "text": "ジェラート事業を始める、または設備をアップグレードする際、選択するマシンは製品品質、生産能力、運営コストに直接影響します。20年の製造経験を持つBEJADYは、数千もの企業が最適なマシンを見つけるお手伝いをしてきました。" }] },
+    { "style": "h2", "children": [{ "text": "ステップ1：生産量を決める" }] },
+    { "style": "normal", "children": [{ "text": "最初に答えるべき質問は、1日にどのくらいのジェラートを生産する必要があるかです。" }] },
+    { "style": "bullet", "children": [{ "text": "低量（10-20 L/日）：シングルまたはダブルシリンダー — カフェやスタートアップに最適" }] },
+    { "style": "bullet", "children": [{ "text": "中量（20-40 L/日）：トリプルシリンダー — ジェラテリアに最適" }] },
+    { "style": "bullet", "children": [{ "text": "多量（40-80 L/日）：フォーまたはシックスシリンダー — 多忙な店舗やチェーン向け" }] },
+    { "style": "h2", "children": [{ "text": "ステップ2：フレーバーの多様性を考える" }] },
+    { "style": "normal", "children": [{ "text": "各シリンダーは1度に1つのフレーバーを生産します。3シリンダーマシンなら3種のフレーバーを同時に提供しながら、別のバッチを生産可能です。成功しているジェラテリアは通常8〜12種のフレーバーを揃えています。" }] },
+    { "style": "h2", "children": [{ "text": "ステップ3：コンプレッサーの品質" }] },
+    { "style": "normal", "children": [{ "text": "コンプレッサーはジェラートマシンの心臓部です。BEJADYはCopeland、Bitzer、Panasonicなどの世界有数のブランドと提携し、安定した冷却とエネルギー効率を実現しています。" }] },
+    { "style": "h2", "children": [{ "text": "ステップ4：認証とコンプライアンス" }] },
+    { "style": "normal", "children": [{ "text": "輸出や規制市場での開業を検討している場合、認証は重要です。BEJADYのマシンはCE認証（欧州）を取得しており、北米向けULオプションも用意。すべての食品接触部品はFDA準拠です。" }] },
+    { "style": "h2", "children": [{ "text": "簡単比較表" }] },
+    { "style": "normal", "children": [{ "text": "モデル | 生産能力 | 消費電力 | 最適な用途" }] },
+    { "style": "normal", "children": [{ "text": "シングル | 10-14 L/h | 1.5 kW | カフェ、スタートアップ" }] },
+    { "style": "normal", "children": [{ "text": "ダブル | 20-28 L/h | 2.8 kW | レストラン、小規模店舗" }] },
+    { "style": "normal", "children": [{ "text": "トリプル | 30-40 L/h | 4.2 kW | ジェラテリア" }] },
+    { "style": "normal", "children": [{ "text": "フォー | 40-55 L/h | 5.6 kW | 高稼働店舗" }] },
+    { "style": "normal", "children": [{ "text": "シックス | 60-80 L/h | 8.4 kW | 産業生産" }] },
+    { "style": "h2", "children": [{ "text": "決断にお困りですか？" }] },
+    { "style": "normal", "children": [{ "text": "どのビジネスも異なります。BEJADYのセールスチームにご連絡いただければ、お客様のニーズに合わせた最適なマシンをご提案します。" }] }
+  ]
+}

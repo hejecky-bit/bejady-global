@@ -1,0 +1,156 @@
+{
+  "site": {
+    "title": "BEJADY Gelato — Commercial Gelato Machine Manufacturer & OEM/ODM Partner",
+    "description": "20 years of excellence in commercial gelato machine manufacturing. Premium OEM/ODM services for global brands. Export-grade Italian-style ice cream equipment.",
+    "keywords": "commercial gelato machine, gelato machine manufacturer, OEM ice cream machine, ODM gelato equipment, Italian gelato machine, ice cream machine factory China"
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us",
+    "oem": "OEM/ODM",
+    "resources": "Resources",
+    "blog": "Blog",
+    "contact": "Contact",
+    "quote": "Get Quote",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "20 Years of Crafting Premium Gelato Machines",
+    "subtitle": "BEJADY — Your Trusted Partner in Commercial Gelato Equipment, Since 2006",
+    "cta_products": "Explore Machines",
+    "cta_quote": "Request OEM Quote",
+    "stats_machines": "15,000+ Machines Delivered",
+    "stats_countries": "Exported to 60+ Countries",
+    "stats_years": "20 Years Expertise"
+  },
+  "products": {
+    "title": "Our Gelato Machines",
+    "subtitle": "From single-cylinder to six-cylinder, we engineer every machine for consistency, durability, and premium gelato quality.",
+    "view_detail": "View Details",
+    "single": {
+      "name": "Single Cylinder Gelato Machine",
+      "desc": "Perfect for startups, cafes, and small batches. Compact yet powerful."
+    },
+    "double": {
+      "name": "Double Cylinder Gelato Machine",
+      "desc": "Dual flavor production for medium-volume shops and restaurants."
+    },
+    "triple": {
+      "name": "Triple Cylinder Gelato Machine",
+      "desc": "Three flavors simultaneously — ideal for dedicated gelato parlors."
+    },
+    "four": {
+      "name": "Four Cylinder Gelato Machine",
+      "desc": "High-volume production for busy stores and chains."
+    },
+    "six": {
+      "name": "Six Cylinder Gelato Machine",
+      "desc": "Flagship model for industrial-scale artisanal gelato production."
+    }
+  },
+  "about": {
+    "title": "20 Years of Gelato Excellence",
+    "subtitle": "From a precision engineering workshop to a globally recognized gelato machine manufacturer.",
+    "story_title": "Our Story",
+    "story_p1": "Founded in 2006, BEJADY started as a small precision parts workshop in Guangzhou, China. Our founder, a mechanical engineer with a passion for Italian gelato, saw an opportunity: bridge the gap between European gelato quality and accessible manufacturing.",
+    "story_p2": "Over two decades, we've grown into a 15,000㎡ facility housing R&D, production, quality control, and a dedicated gelato lab. Every machine is built, tested, and perfected under one roof.",
+    "milestones": "Our Journey",
+    "milestone_1": "2006 — Founded as precision parts workshop",
+    "milestone_2": "2010 — First gelato machine prototype",
+    "milestone_3": "2014 — CE certification, first export order",
+    "milestone_4": "2018 — 10,000th machine delivered",
+    "milestone_5": "2022 — Expanded to 15,000㎡ factory",
+    "milestone_6": "2026 — Serving 60+ countries worldwide",
+    "values_title": "What Drives Us",
+    "value_1_title": "Precision Engineering",
+    "value_1_desc": "CNC-machined components, rigorous tolerances, every part traceable.",
+    "value_2_title": "Italian Heritage, Chinese Craftsmanship",
+    "value_2_desc": "Authentic gelato technology adapted for global reliability and efficiency.",
+    "value_3_title": "Partnership Over Transaction",
+    "value_3_desc": "We grow with our OEM partners — from recipe to packaging, we deliver."
+  },
+  "oem": {
+    "title": "OEM & ODM Services",
+    "subtitle": "Your Brand, Our Expertise — End-to-End Gelato Machine Manufacturing",
+    "why_title": "Why Partner with BEJADY?",
+    "why_1_title": "20 Years of Manufacturing Excellence",
+    "why_1_desc": "Two decades of continuous improvement in design, materials, and production processes.",
+    "why_2_title": "Full Customization",
+    "why_2_desc": "Branding, color, voltage, compressor brand, control system — tailored to your market.",
+    "why_3_title": "Global Certifications",
+    "why_3_desc": "CE, UL, RoHS, FDA-compliant materials. Ready for Europe, Americas, Middle East, and Asia.",
+    "why_4_title": "End-to-End Support",
+    "why_4_desc": "From product design and prototyping to mass production, logistics, and after-sales.",
+    "process_title": "Our OEM Process",
+    "step_1": "Inquiry & Consultation",
+    "step_2": "Design & Quotation",
+    "step_3": "Prototyping & Approval",
+    "step_4": "Mass Production",
+    "step_5": "QC & Packaging",
+    "step_6": "Global Delivery",
+    "cta": "Start Your OEM Project"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Ready to start your gelato business or OEM project? We're here to help.",
+    "form_name": "Your Name",
+    "form_email": "Email Address",
+    "form_company": "Company Name",
+    "form_country": "Country",
+    "form_message": "How can we help?",
+    "form_submit": "Send Message",
+    "form_success": "Thank you! We'll get back to you within 24 hours.",
+    "address": "Guangzhou, Guangdong, China",
+    "phone": "+86-XXX-XXXXXXX",
+    "email": "info@bejady.com"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about BEJADY gelato machines and OEM partnerships.",
+    "q1": "What is the minimum order quantity (MOQ) for OEM orders?",
+    "a1": "Our MOQ for OEM orders is typically 10 units per model. For first-time partners, we offer a trial order of 3-5 units at a preferential rate.",
+    "q2": "What certifications do your machines have?",
+    "a2": "Our machines are CE certified for the European market, with UL options available for North America. All food-contact parts use FDA-compliant materials. RoHS and REACH compliance are standard.",
+    "q3": "Can you customize the machine design and branding?",
+    "a3": "Absolutely. We offer full customization including brand logo, color scheme, control panel layout, voltage/frequency configuration, and packaging design. Your brand, your specifications.",
+    "q4": "What is the typical lead time?",
+    "a4": "Standard lead time is 25-35 days after order confirmation and deposit. OEM orders with custom branding typically require 35-45 days. We also offer express delivery for urgent orders.",
+    "q5": "Do you provide after-sales support and spare parts?",
+    "a5": "Yes. We maintain a comprehensive spare parts inventory and offer technical support via video call, remote diagnostics, and on-site service in select regions. All machines come with a 12-month warranty.",
+    "q6": "What type of gelato can I make with your machines?",
+    "a6": "Our machines can produce a wide range of frozen desserts: Italian gelato, sorbet, sherbet, frozen yogurt, and soft serve. We also provide formulation support and recipe development for OEM partners.",
+    "q7": "Do you offer training and recipe support?",
+    "a7": "Yes, we provide comprehensive training including machine operation, maintenance, and gelato-making techniques. For OEM partners, we offer dedicated recipe development and formulation support.",
+    "q8": "What compressor brands do you use?",
+    "a8": "We partner with world-leading compressor manufacturers including Copeland, Bitzer, and Panasonic, ensuring reliable performance and efficient cooling across all operating conditions."
+  },
+  "resources": {
+    "title": "Gelato Knowledge Hub",
+    "subtitle": "Expert guides, industry insights, and tips for gelato business success.",
+    "coming_soon": "More articles coming soon. Stay tuned!"
+  },
+  "footer": {
+    "about": "BEJADY is a leading manufacturer of commercial gelato machines, serving global brands with OEM/ODM solutions since 2006.",
+    "products_title": "Products",
+    "company_title": "Company",
+    "contact_title": "Contact",
+    "copyright": "© 2026 BEJADY Gelato. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "seo": {
+    "home_title": "BEJADY Gelato — Commercial Gelato Machine Manufacturer & OEM Partner Since 2006",
+    "home_desc": "Premium commercial gelato machines for global businesses. 20 years of manufacturing expertise, OEM/ODM services, and end-to-end support for ice cream brands worldwide.",
+    "about_title": "About BEJADY — 20 Years of Gelato Machine Manufacturing Excellence",
+    "about_desc": "From Guangzhou to the world: BEJADY's 20-year journey in crafting commercial gelato machines. Factory tour, certifications, and our commitment to quality.",
+    "products_title": "Commercial Gelato Machines — BEJADY Product Range",
+    "products_desc": "Explore BEJADY's complete range of commercial gelato machines: single to six-cylinder models for every business scale. Italian quality, globally certified.",
+    "oem_title": "Gelato Machine OEM/ODM Manufacturer — BEJADY",
+    "oem_desc": "Partner with a trusted OEM/ODM manufacturer for commercial gelato machines. Full customization, global certifications, 20 years of export experience.",
+    "contact_title": "Contact BEJADY — Gelato Machine OEM & Sales Inquiries",
+    "contact_desc": "Get in touch with BEJADY for commercial gelato machine purchases, OEM partnerships, and distributor inquiries. We respond within 24 hours.",
+    "faq_title": "Gelato Machine FAQ — BEJADY",
+    "faq_desc": "Frequently asked questions about BEJADY commercial gelato machines, OEM partnerships, certifications, lead times, and after-sales support."
+  }
+}

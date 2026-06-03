@@ -1,0 +1,131 @@
+{
+  "company": {
+    "name": "BEJADY Gelato (百佳迪)",
+    "fullName": "广州百佳迪智能设备有限公司",
+    "founded": 2006,
+    "location": "Guangzhou, Guangdong, China",
+    "factorySize": "15,000㎡",
+    "machinesDelivered": 15000,
+    "exportCountries": 60,
+    "employees": "200+",
+    "yearsOfExperience": 20,
+    "specialty": "Commercial gelato machine manufacturing & OEM/ODM services",
+    "positioning": "International quality gelato full-solution provider",
+    "coreBelief": "20 years of export technology, one hit-product solution"
+  },
+  "brandVoice": {
+    "slogan": "Gelato shouldn't be a luxury. It's just been packaged as one by information asymmetry.",
+    "coreMessage": "What costs 100,000+ yuan to learn in Italy, we deliver with equipment and recipes for 20,000 yuan — including training.",
+    "promise": "The hit recipes you're looking for are already tested in our AI database."
+  },
+  "certifications": [
+    "CE (European market)",
+    "UL (North America, optional)",
+    "RoHS",
+    "REACH",
+    "FDA-compliant food-contact materials"
+  ],
+  "compressorBrands": ["Copeland", "Bitzer", "Panasonic"],
+  "productLines": [
+    { "model": "SC-1", "name": "Single Cylinder", "capacity": "10-14 L/h", "power": "1.5 kW", "weight": "80 kg", "bestFor": "Cafes, startups, small batches" },
+    { "model": "DC-2", "name": "Double Cylinder", "capacity": "20-28 L/h", "power": "2.8 kW", "weight": "140 kg", "bestFor": "Restaurants, small shops" },
+    { "model": "TC-3", "name": "Triple Cylinder", "capacity": "30-40 L/h", "power": "4.2 kW", "weight": "200 kg", "bestFor": "Dedicated gelato parlors" },
+    { "model": "FC-4", "name": "Four Cylinder", "capacity": "40-55 L/h", "power": "5.6 kW", "weight": "260 kg", "bestFor": "High-volume stores, chains" },
+    { "model": "SC-6", "name": "Six Cylinder", "capacity": "60-80 L/h", "power": "8.4 kW", "weight": "380 kg", "bestFor": "Industrial production" }
+  ],
+  "machineFeatures": {
+    "cooling": "Italian-standard refrigeration system with precision temperature control",
+    "homogenization": "Industrial-grade homogenization process for consistent texture",
+    "durability": "10-year lifespan with 80-90% resale value",
+    "priceAdvantage": "1/5 to 1/10 the price of equivalent imported machines"
+  },
+  "oemServices": [
+    "Full branding customization (logo, color, panel, packaging)",
+    "Voltage and frequency configuration for any market",
+    "Compressor brand selection (Copeland/Bitzer/Panasonic)",
+    "Control system and interface customization",
+    "Recipe development and formulation support",
+    "Training: machine operation, maintenance, gelato-making",
+    "Content support: product photography, video strategy",
+    "After-sales: remote diagnostics, spare parts, on-site service"
+  ],
+  "recipeDatabase": {
+    "totalRecipes": 35,
+    "baseTypes": [
+      "6.1% commercial egg-base gelato",
+      "6.25% commercial milk-base gelato",
+      "7.2% commercial milk-base gelato",
+      "8.5% commercial milk-base gelato",
+      "9% commercial milk-base gelato"
+    ],
+    "flavorCategories": [
+      "Classic: vanilla milk, chocolate, pistachio",
+      "Fruit sorbets: mango passionfruit, strawberry berry, lemon, watermelon mint",
+      "Innovative Chinese: five-rice gelato, black sesame, sea salt pineapple",
+      "Premium: mascarpone fig, bergamot yuzu sorbet",
+      "Trending: Thai milk tea, osmanthus oolong (Boyajuexian), salted caramel"
+    ],
+    "trainingSystem": "3-day hands-on training — 3 systems integrated: Carpigiani × ICIF × Gelato University",
+    "aiDatabase": "Proprietary AI formula database covering all mainstream gelato categories"
+  },
+  "customerPersonas": [
+    {
+      "type": "Gelato startup entrepreneur",
+      "painPoint": "No technical background, worried about equipment investment",
+      "solution": "20,000 yuan entry, AI recipe library, 3 days to master, 10-year lifespan"
+    },
+    {
+      "type": "Tea/dining chain adding gelato category",
+      "painPoint": "Need seamless integration with existing supply chain",
+      "solution": "One-stop from recipe customization to SOP delivery"
+    },
+    {
+      "type": "International OEM/ODM buyer",
+      "painPoint": "International brand quality at China manufacturing cost",
+      "solution": "20 years export experience, quality verified by European and American markets"
+    },
+    {
+      "type": "Cross-industry entrepreneur",
+      "painPoint": "Don't know products or content, don't know how to start",
+      "solution": "Full hit-product package including video production guidance"
+    }
+  ],
+  "keySellingPoints": [
+    "20 years of export-grade refrigeration manufacturing quality",
+    "Same quality as Italian machines at 1/5-1/10 the price",
+    "20,000 yuan entry point, 10x output, 10-year lifespan, 80-90%保值",
+    "Full product line: from compact commercial to industrial production line",
+    "Proprietary AI recipe database covering 35+ recipes",
+    "3 major training systems integrated: Carpigiani × ICIF × Gelato University",
+    "Full-stack service: equipment + recipe + training + content marketing"
+  ],
+  "brandStory": {
+    "origin": "Founded in 2006 as a precision parts workshop in Guangzhou",
+    "breakthrough": "2010 — First gelato machine prototype developed",
+    "milestone1": "2014 — CE certification achieved, first export",
+    "milestone2": "2018 — 10,000th machine delivered",
+    "milestone3": "2022 — Expanded to 15,000㎡ factory",
+    "milestone4": "2026 — Serving 60+ countries, 15,000+ machines delivered",
+    "chinaStrategy": "In 2024, BEJADY decided to build its own brand: speak with our own name, deliver 20 years of accumulated expertise to our own people."
+  },
+  "marketComparison": {
+    "italianMachinePrice": "$14,000+ (100,000+ RMB)",
+    "bejadyPrice": "$2,800 (20,000 RMB) starting",
+    "priceGap": "80% savings vs imported equivalent",
+    "infoAsymmetry": "The price gap is not machine quality — it's information asymmetry"
+  },
+  "internalLinks": {
+    "home": "/bejady",
+    "products": "/bejady/products",
+    "singleCylinder": "/bejady/products/single-cylinder",
+    "doubleCylinder": "/bejady/products/double-cylinder",
+    "tripleCylinder": "/bejady/products/triple-cylinder",
+    "fourCylinder": "/bejady/products/four-cylinder",
+    "sixCylinder": "/bejady/products/six-cylinder",
+    "oem": "/bejady/oem-odm",
+    "about": "/bejady/about",
+    "blog": "/bejady/blog",
+    "contact": "/bejady/contact",
+    "faq": "/bejady/faq"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "site": {
+    "title": "百佳迪 Gelato — 商业意式冰淇淋机制造商 & OEM/ODM 合作伙伴",
+    "description": "20 年专注商用 Gelato 冰淇淋机研发制造。为全球品牌提供 OEM/ODM 代工服务，出口级意式冰淇淋设备，工厂直供。",
+    "keywords": "商用冰淇淋机, Gelato机器, 意式冰淇淋机厂家, OEM冰淇淋机, ODM冰淇淋设备, 百佳迪, 冰淇淋机工厂"
+  },
+  "nav": {
+    "home": "首页",
+    "products": "产品中心",
+    "about": "关于我们",
+    "oem": "OEM/ODM",
+    "resources": "资源中心",
+    "blog": "博客",
+    "contact": "联系我们",
+    "quote": "获取报价",
+    "faq": "常见问题"
+  },
+  "hero": {
+    "title": "20 年专注，做好每一台 Gelato 机器",
+    "subtitle": "百佳迪 BEJADY — 您值得信赖的商用冰淇淋设备与 OEM/ODM 合作伙伴",
+    "cta_products": "探索产品",
+    "cta_quote": "获取 OEM 报价",
+    "stats_machines": "累计交付 15,000+ 台",
+    "stats_countries": "出口 60+ 个国家",
+    "stats_years": "20 年技术积累",
+    "trust_certifications": "CE · UL · RoHS · FDA",
+    "trust_oem": "OEM / ODM / 私有品牌",
+    "trust_support": "技术支持"
+  },
+  "products": {
+    "title": "我们的 Gelato 机器",
+    "subtitle": "从单缸到六缸，每一台机器都为稳定性、耐用性和优质 Gelato 出品而工程打造。",
+    "view_detail": "查看详情",
+    "single": {
+      "name": "单缸 Gelato 冰淇淋机",
+      "desc": "适合创业、咖啡馆和小批量生产。紧凑而强大。"
+    },
+    "double": {
+      "name": "双缸 Gelato 冰淇淋机",
+      "desc": "双味同时生产，适合中型门店和餐厅。"
+    },
+    "triple": {
+      "name": "三缸 Gelato 冰淇淋机",
+      "desc": "三味同时出品——专为 Gelato 专门店打造。"
+    },
+    "four": {
+      "name": "四缸 Gelato 冰淇淋机",
+      "desc": "大批量生产，满足繁忙门店和连锁品牌需求。"
+    },
+    "six": {
+      "name": "六缸 Gelato 冰淇淋机",
+      "desc": "旗舰机型，面向工业级手工冰淇淋生产。"
+    }
+  },
+  "about": {
+    "title": "20 年 Gelato 匠心之路",
+    "subtitle": "从精密零件加工车间，成长为全球公认的 Gelato 机器制造商。",
+    "story_title": "我们的故事",
+    "story_p1": "百佳迪成立于 2006 年，始于广州一个精密零件加工车间。创始人是一位热爱意式冰淇淋的机械工程师，他看到了一个机会：缩小欧洲 Gelato 品质与可及性之间的差距。",
+    "story_p2": "二十年来，我们已发展为占地 15,000㎡ 的现代化工厂，涵盖研发、生产、质检和专属 Gelato 实验室。每一台机器都在同一屋檐下完成制造、测试和优化。",
+    "milestones": "发展历程",
+    "milestone_1": "2006 — 成立于精密零件车间",
+    "milestone_2": "2010 — 第一台 Gelato 机原型",
+    "milestone_3": "2014 — 获 CE 认证，首单出口",
+    "milestone_4": "2018 — 第 10,000 台机器交付",
+    "milestone_5": "2022 — 扩建至 15,000㎡ 工厂",
+    "milestone_6": "2026 — 服务全球 60+ 国家",
+    "values_title": "驱动我们的力量",
+    "value_1_title": "精密工程",
+    "value_1_desc": "CNC 精密加工、严格公差、每个零部件可追溯。",
+    "value_2_title": "意式基因，中国制造",
+    "value_2_desc": "正宗 Gelato 技术工艺，适配全球市场的可靠性与效率。",
+    "value_3_title": "伙伴关系，而非交易",
+    "value_3_desc": "与 OEM 合作伙伴共同成长——从配方到包装，一站式交付。"
+  },
+  "oem": {
+    "title": "OEM & ODM 服务",
+    "subtitle": "您的品牌，我们的专业——端到端的 Gelato 机器制造",
+    "why_title": "为什么选择百佳迪？",
+    "why_1_title": "20 年制造经验",
+    "why_1_desc": "二十年持续改进设计、材料和工艺，每一代机器都比上一代更优。",
+    "why_2_title": "全面定制",
+    "why_2_desc": "品牌标识、颜色、电压、压缩机品牌、控制系统——为您的市场量身定制。",
+    "why_3_title": "全球认证",
+    "why_3_desc": "CE、UL、RoHS、FDA 合规材料。适用于欧洲、美洲、中东和亚洲市场。",
+    "why_4_title": "全流程支持",
+    "why_4_desc": "从产品设计、打样到量产、物流和售后服务。",
+    "process_title": "OEM 合作流程",
+    "step_1": "需求沟通",
+    "step_2": "设计与报价",
+    "step_3": "打样确认",
+    "step_4": "批量生产",
+    "step_5": "质检包装",
+    "step_6": "全球交付",
+    "cta": "开启 OEM 合作",
+    "cta_desc": "告诉我们你的项目需求，我们会在 24 小时内给出适合的定制方案。",
+    "cta_button": "联系 OEM 团队"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "准备好开始您的 Gelato 事业或 OEM 项目了吗？我们随时为您服务。",
+    "form_title": "发送咨询",
+    "info_title": "联系信息",
+    "form_name": "您的姓名",
+    "form_email": "邮箱地址",
+    "form_company": "公司名称",
+    "form_country": "所在国家",
+    "form_message": "请描述您的需求",
+    "form_submit": "发送消息",
+    "form_success": "感谢您的留言！邮件客户端会打开，并带上已填写的咨询内容。",
+    "address_label": "地址",
+    "address": "中国广东省广州市",
+    "phone_label": "电话",
+    "phone": "+86-XXX-XXXXXXX",
+    "email_label": "邮箱",
+    "email": "info@bejady.com",
+    "hours_title": "工作时间",
+    "hours_weekday": "周一至周五：9:00 - 18:00（GMT+8）",
+    "hours_saturday": "周六：9:00 - 12:00",
+    "hours_note": "* 我们会在 24 小时内回复咨询。"
+  },
+  "faq": {
+    "title": "常见问题",
+    "subtitle": "关于百佳迪 Gelato 机器和 OEM 合作，您需要了解的一切。",
+    "q1": "OEM 订单的最小起订量（MOQ）是多少？",
+    "a1": "OEM 订单的标准 MOQ 是每款 10 台。对于首次合作的伙伴，我们提供 3-5 台的试单优惠价格。",
+    "q2": "你们的机器有哪些认证？",
+    "a2": "我们的机器已获得 CE 认证（欧洲市场），并提供 UL 选项（北美市场）。所有食品接触部件均使用 FDA 合规材料。RoHS 和 REACH 合规为标准配置。",
+    "q3": "可以定制机器的外观和品牌吗？",
+    "a3": "完全可以。我们提供全面定制：品牌 Logo、配色方案、控制面板布局、电压/频率配置和包装设计。您的品牌，您的规格。",
+    "q4": "典型的交货周期是多久？",
+    "a4": "标准交货周期为订单确认并收到定金后 25-35 天。含定制品牌的 OEM 订单通常需要 35-45 天。紧急订单可安排加急。",
+    "q5": "你们提供售后服务和配件吗？",
+    "a5": "是的。我们备有全面的配件库存，并通过视频通话、远程诊断和部分地区现场服务提供技术支持。所有机器享有 12 个月保修。",
+    "q6": "你们的机器可以做什么类型的冰淇淋？",
+    "a6": "我们的机器可生产多种冷冻甜品：意式 Gelato、雪芭、冰冻酸奶、软冰淇淋等。我们还为 OEM 合作伙伴提供配方支持和产品开发协助。",
+    "q7": "你们提供培训和配方支持吗？",
+    "a7": "是的，我们提供全面培训，包括机器操作、维护和 Gelato 制作技术。对于 OEM 合作伙伴，我们提供专属配方开发和工艺支持。",
+    "q8": "你们使用什么牌子的压缩机？",
+    "a8": "我们与全球领先的压缩机制造商合作，包括 Copeland、Bitzer 和 Panasonic，确保在各种工况下稳定可靠的制冷性能。"
+  },
+  "resources": {
+    "title": "Gelato 知识中心",
+    "subtitle": "专家指南、行业洞察和 Gelato 商业成功技巧。",
+    "coming_soon": "更多文章即将上线，敬请期待！"
+  },
+  "footer": {
+    "about": "百佳迪 BEJADY 是商用 Gelato 冰淇淋机的领先制造商，自 2006 年起为全球品牌提供 OEM/ODM 解决方案。",
+    "products_title": "产品",
+    "company_title": "公司",
+    "contact_title": "联系我们",
+    "copyright": "© 2026 百佳迪 Gelato。保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
+  },
+  "seo": {
+    "home_title": "百佳迪 Gelato — 商用冰淇淋机制造商 & OEM 代工合作伙伴",
+    "home_desc": "百佳迪 BEJADY 专注商用 Gelato 冰淇淋机 20 年，为全球品牌提供 OEM/ODM 代工服务。CE/UL 认证，出口 60+ 国，工厂直供。",
+    "about_title": "关于百佳迪 — 20 年 Gelato 机器制造经验",
+    "about_desc": "从广州走向世界：百佳迪 20 年商用冰淇淋机制造历程。工厂参观、资质认证、品质承诺。",
+    "products_title": "商用 Gelato 冰淇淋机 — 百佳迪产品系列",
+    "products_desc": "百佳迪全系列商用 Gelato 冰淇淋机：单缸到六缸，适配不同经营规模。意式品质，全球认证。",
+    "oem_title": "冰淇淋机 OEM/ODM 代工工厂 — 百佳迪",
+    "oem_desc": "与值得信赖的 OEM/ODM 代工伙伴合作。全面定制、全球认证、20 年出口经验。",
+    "contact_title": "联系百佳迪 — 冰淇淋机采购 & OEM 合作咨询",
+    "contact_desc": "联系百佳迪，咨询商用 Gelato 冰淇淋机采购、OEM 合作及经销商合作事宜。24 小时内回复。",
+    "faq_title": "Gelato 机器常见问题 — 百佳迪",
+    "faq_desc": "关于百佳迪商用 Gelato 机器、OEM 合作、认证资质、交货周期和售后服务的常见问题。"
+  }
+}
