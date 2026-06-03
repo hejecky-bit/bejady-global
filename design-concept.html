@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BEJADY — Design Concept (欧美科技感)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #f8f9fc; color: #1a1a2e; }
+
+    /* ── Navigation ── */
+    nav {
+      position: fixed; top: 0; width: 100%; z-index: 100;
+      background: rgba(255,255,255,0.85); backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+    .nav-inner {
+      max-width: 1280px; margin: 0 auto; padding: 0 32px;
+      height: 72px; display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-logo { font-size: 22px; font-weight: 800; letter-spacing: -0.5px; }
+    .nav-logo span { color: #6c5ce7; }
+    .nav-links { display: flex; gap: 32px; align-items: center; }
+    .nav-links a {
+      text-decoration: none; color: #4a4a6a; font-size: 14px; font-weight: 500;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: #6c5ce7; }
+    .nav-cta {
+      background: #1a1a2e; color: white !important; padding: 10px 24px;
+      border-radius: 100px; font-weight: 600 !important;
+    }
+
+    /* ── Hero ── */
+    .hero {
+      min-height: 100vh; display: flex; align-items: center;
+      background: linear-gradient(135deg, #0f0f1a 0%, #1a1a3e 50%, #0f0f1a 100%);
+      position: relative; overflow: hidden;
+    }
+    .hero::before {
+      content: ''; position: absolute; width: 800px; height: 800px;
+      background: radial-gradient(circle, rgba(108,92,231,0.15), transparent);
+      top: -200px; right: -200px; border-radius: 50%;
+    }
+    .hero::after {
+      content: ''; position: absolute; width: 600px; height: 600px;
+      background: radial-gradient(circle, rgba(0,206,201,0.1), transparent);
+      bottom: -150px; left: -150px; border-radius: 50%;
+    }
+    .hero-content {
+      max-width: 1280px; margin: 0 auto; padding: 0 32px;
+      display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center;
+      position: relative; z-index: 1;
+    }
+    .hero-text h1 {
+      font-size: 60px; font-weight: 800; line-height: 1.1;
+      color: white; letter-spacing: -2px; margin-bottom: 24px;
+    }
+    .hero-text h1 em {
+      font-style: normal;
+      background: linear-gradient(135deg, #6c5ce7, #00cec9);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .hero-text p {
+      font-size: 18px; line-height: 1.7; color: rgba(255,255,255,0.6);
+      margin-bottom: 40px; max-width: 480px;
+    }
+    .hero-buttons { display: flex; gap: 16px; }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: #6c5ce7; color: white; text-decoration: none;
+      padding: 16px 32px; border-radius: 100px; font-weight: 600; font-size: 15px;
+      transition: all 0.3s;
+    }
+    .btn-primary:hover { background: #5a4bd1; transform: translateY(-2px); }
+    .btn-secondary {
+      display: inline-flex; align-items: center; gap: 8px;
+      border: 1px solid rgba(255,255,255,0.2); color: white; text-decoration: none;
+      padding: 16px 32px; border-radius: 100px; font-weight: 500; font-size: 15px;
+      transition: all 0.3s;
+    }
+    .btn-secondary:hover { border-color: rgba(255,255,255,0.5); transform: translateY(-2px); }
+    .hero-stats {
+      display: flex; gap: 40px; margin-top: 48px;
+    }
+    .hero-stats div { text-align: left; }
+    .hero-stats .num { font-size: 32px; font-weight: 800; color: white; }
+    .hero-stats .label { font-size: 13px; color: rgba(255,255,255,0.4); margin-top: 4px; }
+    .hero-visual {
+      display: flex; justify-content: center; align-items: center;
+      position: relative;
+    }
+    .hero-card {
+      width: 100%; aspect-ratio: 4/3;
+      background: linear-gradient(145deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02));
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 24px; display: flex; align-items: center; justify-content: center;
+      backdrop-filter: blur(10px);
+    }
+    .hero-card-inner {
+      text-align: center; color: rgba(255,255,255,0.2);
+      font-size: 14px; font-weight: 300;
+    }
+    .hero-card-inner .icon { font-size: 64px; margin-bottom: 16px; }
+
+    /* ── Section Headers ── */
+    .section { padding: 120px 32px; }
+    .section-inner { max-width: 1280px; margin: 0 auto; }
+    .section-label {
+      font-size: 13px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase;
+      color: #6c5ce7; margin-bottom: 12px;
+    }
+    .section-title {
+      font-size: 42px; font-weight: 800; letter-spacing: -1px;
+      color: #1a1a2e; margin-bottom: 16px;
+    }
+    .section-sub {
+      font-size: 18px; color: #6a6a8a; line-height: 1.6;
+      max-width: 600px;
+    }
+
+    /* ── Products Grid ── */
+    .products-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;
+      margin-top: 56px;
+    }
+    .product-card {
+      background: white; border-radius: 20px; padding: 32px;
+      border: 1px solid rgba(0,0,0,0.06);
+      transition: all 0.3s; cursor: pointer;
+    }
+    .product-card:hover {
+      transform: translateY(-4px); box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+      border-color: rgba(108,92,231,0.2);
+    }
+    .product-card .icon-bg {
+      width: 48px; height: 48px; border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 24px; margin-bottom: 20px;
+    }
+    .product-card h3 { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
+    .product-card p { font-size: 14px; color: #6a6a8a; line-height: 1.6; }
+    .product-card .specs {
+      display: flex; gap: 16px; margin-top: 20px; padding-top: 20px;
+      border-top: 1px solid rgba(0,0,0,0.05);
+    }
+    .product-card .specs span { font-size: 12px; color: #9a9ab2; }
+    .product-card .specs strong { display: block; font-size: 13px; color: #1a1a2e; margin-top: 2px; }
+
+    /* ─── Stats Bar ─── */
+    .stats-bar {
+      background: #1a1a2e; border-radius: 20px; padding: 56px 64px;
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px;
+      margin-top: 80px;
+    }
+    .stat-item { text-align: center; }
+    .stat-item .num { font-size: 40px; font-weight: 800; color: white; letter-spacing: -1px; }
+    .stat-item .label { font-size: 14px; color: rgba(255,255,255,0.4); margin-top: 4px; }
+
+    /* ─── About ─── */
+    .about-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center;
+    }
+    .about-image {
+      background: linear-gradient(145deg, #e8e8f0, #f0f0f8);
+      border-radius: 24px; aspect-ratio: 4/3;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .about-image span { font-size: 48px; opacity: 0.3; }
+    .timeline { margin-top: 32px; }
+    .timeline-item {
+      display: flex; gap: 16px; padding: 12px 0;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+    .timeline-item .year { font-weight: 700; color: #6c5ce7; min-width: 60px; font-size: 14px; }
+    .timeline-item .event { color: #4a4a6a; font-size: 14px; }
+
+    /* ─── OEM Section ─── */
+    .oem-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin-top: 56px; }
+    .oem-card {
+      background: white; border-radius: 16px; padding: 32px 24px;
+      border: 1px solid rgba(0,0,0,0.06); text-align: center;
+    }
+    .oem-card .icon { font-size: 32px; margin-bottom: 16px; }
+    .oem-card h4 { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+    .oem-card p { font-size: 13px; color: #6a6a8a; line-height: 1.6; }
+
+    /* ─── Video ─── */
+    .video-wrapper {
+      border-radius: 24px; overflow: hidden; margin-top: 48px;
+      aspect-ratio: 16/9; background: #1a1a2e;
+      display: flex; align-items: center; justify-content: center;
+      color: rgba(255,255,255,0.2); font-size: 20px;
+    }
+
+    /* ─── CTA ─── */
+    .cta-section {
+      background: linear-gradient(135deg, #1a1a2e, #2a2a4e);
+      border-radius: 24px; padding: 80px 64px; text-align: center;
+      margin-top: 80px;
+    }
+    .cta-section h2 { font-size: 40px; font-weight: 800; color: white; margin-bottom: 16px; }
+    .cta-section p { color: rgba(255,255,255,0.5); font-size: 18px; margin-bottom: 40px; }
+
+    /* ─── Blog ─── */
+    .blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 56px; }
+    .blog-card {
+      background: white; border-radius: 16px; overflow: hidden;
+      border: 1px solid rgba(0,0,0,0.06); transition: all 0.3s;
+    }
+    .blog-card:hover { transform: translateY(-4px); box-shadow: 0 20px 60px rgba(0,0,0,0.08); }
+    .blog-card-img {
+      height: 200px; background: linear-gradient(145deg, #e8e8f0, #f0f0f8);
+      display: flex; align-items: center; justify-content: center;
+      color: rgba(0,0,0,0.15); font-size: 14px;
+    }
+    .blog-card-body { padding: 24px; }
+    .blog-card-body .tag {
+      font-size: 11px; font-weight: 600; color: #6c5ce7; text-transform: uppercase; letter-spacing: 1px;
+    }
+    .blog-card-body h4 { font-size: 16px; font-weight: 700; margin: 8px 0; line-height: 1.4; }
+    .blog-card-body p { font-size: 13px; color: #6a6a8a; line-height: 1.6; }
+
+    /* ─── Footer ─── */
+    footer {
+      background: #0f0f1a; padding: 80px 32px 40px;
+    }
+    .footer-inner { max-width: 1280px; margin: 0 auto; }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 64px; }
+    .footer-col h5 { color: white; font-weight: 700; margin-bottom: 20px; font-size: 14px; }
+    .footer-col p, .footer-col a {
+      color: rgba(255,255,255,0.4); font-size: 14px; line-height: 1.8;
+      text-decoration: none; display: block; transition: color 0.2s;
+    }
+    .footer-col a:hover { color: rgba(255,255,255,0.7); }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.06); margin-top: 48px;
+      padding-top: 32px; display: flex; justify-content: space-between;
+      color: rgba(255,255,255,0.3); font-size: 13px;
+    }
+
+    /* ─── Responsive ─── */
+    @media (max-width: 900px) {
+      .hero-content { grid-template-columns: 1fr; gap: 48px; }
+      .hero-text h1 { font-size: 40px; }
+      .products-grid { grid-template-columns: 1fr 1fr; }
+      .about-grid { grid-template-columns: 1fr; }
+      .oem-grid { grid-template-columns: 1fr 1fr; }
+      .blog-grid { grid-template-columns: 1fr; }
+      .stats-bar { grid-template-columns: 1fr 1fr; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .nav-links a:not(.nav-cta) { display: none; }
+    }
+    @media (max-width: 600px) {
+      .products-grid { grid-template-columns: 1fr; }
+      .stats-bar { grid-template-columns: 1fr; gap: 24px; }
+      .oem-grid { grid-template-columns: 1fr; }
+      .hero-stats { flex-wrap: wrap; gap: 24px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══ Navigation ═══ -->
+<nav>
+  <div class="nav-inner">
+    <div class="nav-logo">BEJADY<span>.</span></div>
+    <div class="nav-links">
+      <a href="#">Products</a>
+      <a href="#">About</a>
+      <a href="#">OEM/ODM</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+      <a href="#" class="nav-cta">Get Started</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══ Hero ═══ -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Engineering the <em>Future</em> of Gelato</h1>
+      <p>20 years of precision manufacturing. 15,000+ machines delivered to 60+ countries. Italian quality, globally engineered.</p>
+      <div class="hero-buttons">
+        <a href="#" class="btn-primary">Explore Machines →</a>
+        <a href="#" class="btn-secondary">OEM Partnership</a>
+      </div>
+      <div class="hero-stats">
+        <div><div class="num">20<span style="color:#6c5ce7;">+</span></div><div class="label">Years of Excellence</div></div>
+        <div><div class="num">15K<span style="color:#6c5ce7;">+</span></div><div class="label">Machines Delivered</div></div>
+        <div><div class="num">60<span style="color:#6c5ce7;">+</span></div><div class="label">Countries Exported</div></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card">
+        <div class="hero-card-inner">
+          <div class="icon">🏭</div>
+          <div>Product Visualization</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ Products ═══ -->
+<section class="section" style="background: white;">
+  <div class="section-inner">
+    <div class="section-label">Product Line</div>
+    <div style="display:flex; justify-content:space-between; align-items:flex-end;">
+      <div>
+        <div class="section-title">Precision Gelato Machines</div>
+        <div class="section-sub">From compact single-cylinder to industrial six-cylinder — every machine engineered for consistency, durability, and premium quality.</div>
+      </div>
+    </div>
+    <div class="products-grid">
+      <div class="product-card">
+        <div class="icon-bg" style="background:#f0e6ff;color:#6c5ce7;">❶</div>
+        <h3>Single Cylinder</h3>
+        <p>Perfect for cafes and startups. Compact countertop design with digital temperature control.</p>
+        <div class="specs">
+          <span>Capacity <strong>10-14 L/h</strong></span>
+          <span>Power <strong>1.5 kW</strong></span>
+          <span>Weight <strong>80 kg</strong></span>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="icon-bg" style="background:#ffe6e6;color:#e75c5c;">❷</div>
+        <h3>Double Cylinder</h3>
+        <p>Dual-flavor production for medium-volume shops. Touch screen control with automatic wash.</p>
+        <div class="specs">
+          <span>Capacity <strong>20-28 L/h</strong></span>
+          <span>Power <strong>2.8 kW</strong></span>
+          <span>Weight <strong>140 kg</strong></span>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="icon-bg" style="background:#e6f7ff;color:#5c9ee7;">❸</div>
+        <h3>Triple Cylinder</h3>
+        <p>Three flavors simultaneously. Recipe memory storage with pre-cooling function.</p>
+        <div class="specs">
+          <span>Capacity <strong>30-40 L/h</strong></span>
+          <span>Power <strong>4.2 kW</strong></span>
+          <span>Weight <strong>200 kg</strong></span>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="icon-bg" style="background:#e6ffe6;color:#5ce75c;">❹</div>
+        <h3>Four Cylinder</h3>
+        <p>High-volume production for busy stores. Rapid cooling system with multi-stage filtration.</p>
+        <div class="specs">
+          <span>Capacity <strong>40-55 L/h</strong></span>
+          <span>Power <strong>5.6 kW</strong></span>
+          <span>Weight <strong>260 kg</strong></span>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="icon-bg" style="background:#fff3e0;color:#e7995c;">❻</div>
+        <h3>Six Cylinder</h3>
+        <p>Flagship industrial model. Programmable scheduling with remote diagnostics.</p>
+        <div class="specs">
+          <span>Capacity <strong>60-80 L/h</strong></span>
+          <span>Power <strong>8.4 kW</strong></span>
+          <span>Weight <strong>380 kg</strong></span>
+        </div>
+      </div>
+      <div class="product-card" style="display:flex;flex-direction:column;align-items:center;justify-content:center;background:#6c5ce7;color:white;border:none;">
+        <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-bottom:12px;">Need a custom solution?</p>
+        <strong style="font-size:16px;">Request OEM Quote →</strong>
+      </div>
+    </div>
+
+    <!-- Stats Bar -->
+    <div class="stats-bar">
+      <div class="stat-item"><div class="num">15,000+</div><div class="label">Machines Delivered</div></div>
+      <div class="stat-item"><div class="num">60+</div><div class="label">Export Countries</div></div>
+      <div class="stat-item"><div class="num">20</div><div class="label">Years Experience</div></div>
+      <div class="stat-item"><div class="num">99.9%</div><div class="label">Uptime Reliability</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ About ═══ -->
+<section class="section">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div>
+        <div class="section-label">Since 2006</div>
+        <div class="section-title">From Guangzhou to the World</div>
+        <div class="section-sub">What started as a precision parts workshop has grown into a 15,000㎡ global manufacturing facility — serving 60+ countries with Italian-quality gelato machines.</div>
+        <div class="timeline">
+          <div class="timeline-item"><span class="year">2006</span><span class="event">Founded as precision workshop</span></div>
+          <div class="timeline-item"><span class="year">2010</span><span class="event">First gelato machine prototype</span></div>
+          <div class="timeline-item"><span class="year">2014</span><span class="event">CE certified — first export</span></div>
+          <div class="timeline-item"><span class="year">2018</span><span class="event">10,000th machine delivered</span></div>
+          <div class="timeline-item"><span class="year">2022</span><span class="event">Expanded to 15,000㎡ factory</span></div>
+          <div class="timeline-item"><span class="year">2026</span><span class="event">Serving 60+ countries worldwide</span></div>
+        </div>
+      </div>
+      <div class="about-image"><span>🏭 Factory Image</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ OEM ═══ -->
+<section class="section" style="background: white;">
+  <div class="section-inner">
+    <div class="section-label">OEM / ODM</div>
+    <div class="section-title">Your Brand, Our Engineering</div>
+    <div class="section-sub">End-to-end manufacturing partnership — from concept to global delivery.</div>
+    <div class="oem-grid">
+      <div class="oem-card">
+        <div class="icon">🎨</div>
+        <h4>Full Customization</h4>
+        <p>Branding, colors, voltage, control systems — tailored to your market.</p>
+      </div>
+      <div class="oem-card">
+        <div class="icon">✅</div>
+        <h4>Global Certifications</h4>
+        <p>CE, UL, RoHS, FDA. Ready for Europe, Americas, Middle East, Asia.</p>
+      </div>
+      <div class="oem-card">
+        <div class="icon">🔧</div>
+        <h4>End-to-End Support</h4>
+        <p>From prototyping and mass production to logistics and after-sales.</p>
+      </div>
+      <div class="oem-card">
+        <div class="icon">🧪</div>
+        <h4>Recipe Development</h4>
+        <p>35+ AI-optimized recipes. R&D for your market's taste preferences.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ Video ═══ -->
+<section class="section">
+  <div class="section-inner">
+    <div class="section-label">In Action</div>
+    <div class="section-title">See the Precision</div>
+    <div class="section-sub">Watch how BEJADY machines perform in real production environments.</div>
+    <div class="video-wrapper">
+      <span>▶ Product Demo Video</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ Blog ═══ -->
+<section class="section" style="background: white;">
+  <div class="section-inner">
+    <div class="section-label">Knowledge Hub</div>
+    <div class="section-title">Expert Insights</div>
+    <div class="section-sub">Guides, industry analysis, and tips for gelato business success.</div>
+    <div class="blog-grid">
+      <div class="blog-card">
+        <div class="blog-card-img">📸</div>
+        <div class="blog-card-body">
+          <div class="tag">Guide</div>
+          <h4>How to Choose the Right Gelato Machine</h4>
+          <p>A comprehensive guide to cylinder count, capacity, and budget.</p>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-card-img">📸</div>
+        <div class="blog-card-body">
+          <div class="tag">Industry</div>
+          <h4>Global Gelato Market Trends 2026</h4>
+          <p>Data-driven insights into the growing gelato industry.</p>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-card-img">📸</div>
+        <div class="blog-card-body">
+          <div class="tag">OEM</div>
+          <h4>OEM vs ODM: Which Model Fits Your Brand?</h4>
+          <p>Understanding manufacturing partnerships for ice cream equipment.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CTA ═══ -->
+<section class="section">
+  <div class="section-inner">
+    <div class="cta-section">
+      <h2>Ready to Build Your Gelato Legacy?</h2>
+      <p>Whether you need one machine or a full OEM partnership — let's talk.</p>
+      <a href="#" class="btn-primary" style="background: white; color: #1a1a2e;">Contact Our Team →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ Footer ═══ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h5 style="font-size:20px; margin-bottom:16px;">BEJADY<span style="color:#6c5ce7;">.</span></h5>
+        <p>Founded in 2006 in Guangzhou, BEJADY is a leading manufacturer of commercial gelato machines, serving global brands with OEM/ODM solutions.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Products</h5>
+        <a href="#">Single Cylinder</a>
+        <a href="#">Double Cylinder</a>
+        <a href="#">Triple Cylinder</a>
+        <a href="#">Four Cylinder</a>
+        <a href="#">Six Cylinder</a>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <a href="#">About Us</a>
+        <a href="#">OEM/ODM</a>
+        <a href="#">Blog</a>
+        <a href="#">FAQ</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <p>Guangzhou, China</p>
+        <p>info@bejady.com</p>
+        <p>+86-XXX-XXXXXXX</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 BEJADY Gelato. All rights reserved.</span>
+      <span>Privacy · Terms</span>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
