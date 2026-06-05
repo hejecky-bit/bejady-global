@@ -9,16 +9,21 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Name, email and message are required" }, { status: 400 });
     }
 
-    // Save to file as backup
-    const fs = await import("fs");
-    const path = await import("path");
-    const logDir = path.join(process.cwd(), "content", "inquiries");
-    fs.mkdirSync(logDir, { recursive: true });
-    const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
-    fs.writeFileSync(
-      path.join(logDir, `${timestamp}-${name.replace(/\s+/g, "-")}.json`),
-      JSON.stringify({ name, email, company, country, message, submittedAt: new Date().toISOString() }, null, 2)
-    );
+    // Save to /tmp as backup (works on Vercel serverless)
+    try {
+      const fs = await import("fs");
+      const nodePath = await import("path");
+      const logDir = nodePath.join("/tmp", "bejady-inquiries");
+      fs.mkdirSync(logDir, { recursive: true });
+      const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
+      fs.writeFileSync(
+        nodePath.join(logDir, `${timestamp}-${name.replace(/\s+/g, "-")}.json`),
+        JSON.stringify({ name, email, company, country, message, submittedAt: new Date().toISOString() }, null, 2)
+      );
+    } catch (e) {
+      // File save is optional - don't block the response
+      console.log("Inquiry save skipped (optional)", e);
+    }
 
     // Try to send email if SMTP is configured
     const smtpHost = process.env.SMTP_HOST;
