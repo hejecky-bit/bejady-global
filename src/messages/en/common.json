@@ -7,10 +7,10 @@
   "nav": {
     "home": "Home",
     "products": "Products",
-    "about": "About Us",
+    "about": "Factory",
     "oem": "OEM/ODM",
     "resources": "Resources",
-    "blog": "Blog",
+    "blog": "Insights",
     "contact": "Contact",
     "quote": "Get Quote",
     "faq": "FAQ"
@@ -89,7 +89,9 @@
     "step_4": "Mass Production",
     "step_5": "QC & Packaging",
     "step_6": "Global Delivery",
-    "cta": "Start Your OEM Project"
+    "cta": "Start Your OEM Project",
+    "cta_desc": "Tell us about your project. We will get back to you within 24 hours with a customized solution.",
+    "cta_button": "Contact Our OEM Team"
   },
   "contact": {
     "title": "Get In Touch",

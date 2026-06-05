@@ -25,13 +25,57 @@
     "REACH",
     "FDA-compliant food-contact materials"
   ],
-  "compressorBrands": ["Copeland", "Bitzer", "Panasonic"],
+  "compressorBrands": [
+    "Copeland",
+    "Bitzer",
+    "Panasonic"
+  ],
   "productLines": [
-    { "model": "SC-1", "name": "Single Cylinder", "capacity": "10-14 L/h", "power": "1.5 kW", "weight": "80 kg", "bestFor": "Cafes, startups, small batches" },
-    { "model": "DC-2", "name": "Double Cylinder", "capacity": "20-28 L/h", "power": "2.8 kW", "weight": "140 kg", "bestFor": "Restaurants, small shops" },
-    { "model": "TC-3", "name": "Triple Cylinder", "capacity": "30-40 L/h", "power": "4.2 kW", "weight": "200 kg", "bestFor": "Dedicated gelato parlors" },
-    { "model": "FC-4", "name": "Four Cylinder", "capacity": "40-55 L/h", "power": "5.6 kW", "weight": "260 kg", "bestFor": "High-volume stores, chains" },
-    { "model": "SC-6", "name": "Six Cylinder", "capacity": "60-80 L/h", "power": "8.4 kW", "weight": "380 kg", "bestFor": "Industrial production" }
+    {
+      "model": "SC-1",
+      "name": "Single Cylinder",
+      "capacity": "10-14 L/h",
+      "power": "1.5 kW",
+      "weight": "80 kg",
+      "bestFor": "Cafes, startups, small batches",
+      "dasherSpeed": "1000-1500 rpm"
+    },
+    {
+      "model": "DC-2",
+      "name": "Double Cylinder",
+      "capacity": "20-28 L/h",
+      "power": "2.8 kW",
+      "weight": "140 kg",
+      "bestFor": "Restaurants, small shops",
+      "dasherSpeed": "1000-1500 rpm"
+    },
+    {
+      "model": "TC-3",
+      "name": "Triple Cylinder",
+      "capacity": "30-40 L/h",
+      "power": "4.2 kW",
+      "weight": "200 kg",
+      "bestFor": "Dedicated gelato parlors",
+      "dasherSpeed": "1000-1500 rpm"
+    },
+    {
+      "model": "FC-4",
+      "name": "Four Cylinder",
+      "capacity": "40-55 L/h",
+      "power": "5.6 kW",
+      "weight": "260 kg",
+      "bestFor": "High-volume stores, chains",
+      "dasherSpeed": "1000-1500 rpm"
+    },
+    {
+      "model": "SC-6",
+      "name": "Six Cylinder",
+      "capacity": "60-80 L/h",
+      "power": "8.4 kW",
+      "weight": "380 kg",
+      "bestFor": "Industrial production",
+      "dasherSpeed": "1000-1500 rpm"
+    }
   ],
   "machineFeatures": {
     "cooling": "Italian-standard refrigeration system with precision temperature control",
@@ -127,5 +171,208 @@
     "blog": "/bejady/blog",
     "contact": "/bejady/contact",
     "faq": "/bejady/faq"
+  },
+  "industryData": {
+    "gelatoMarket": {
+      "globalMarketSize2024": "USD 23.48 billion",
+      "globalMarketForecast2033": "USD 36.22 billion",
+      "cagr2025to2033": "5.2%",
+      "source": "Grand View Research",
+      "sourceUrl": "https://www.grandviewresearch.com/horizon/outlook/gelato-market-size/global",
+      "regionalShare": {
+        "europe": "39% (largest region)",
+        "northAmerica": "23% (USD 3.58B in 2024)",
+        "asiaPacific": "Fastest growing",
+        "middleEast": "6.7% CAGR (fastest growth rate)"
+      },
+      "usMarket2024": "USD 3.58 billion",
+      "usMarketForecast2033": "USD 5.04 billion",
+      "middleEastMarket2024": "USD 225.1 million",
+      "middleEastForecast2033": "USD 394.9 million"
+    },
+    "gelatoMachineMarket": {
+      "softServeMachines2025": "USD 811 million",
+      "softServeForecast2032": "USD 1,349 million",
+      "softServeCagr": "7.54%",
+      "source": "GII / iResearch",
+      "commercialIceCreamMakers2024": "USD 2,128.7 million",
+      "commercialIceCreamForecast2035": "USD 3,500 million",
+      "commercialCagr": "4.6%",
+      "source2": "WiseGuy Reports",
+      "keyGlobalManufacturers": [
+        "Carpigiani (Italy)",
+        "Taylor (USA)",
+        "Stoelting (USA)",
+        "Nissei (Japan)",
+        "Electro Freeze (USA)",
+        "ICETRO (Italy)",
+        "Spaceman (Italy)",
+        "Gel Matic (Italy)",
+        "Technogel (Italy)",
+        "DONPER (China)",
+        "Tetra Pak (Sweden)"
+      ]
+    },
+    "consumptionData": {
+      "globalGelatoConsumptionTrend": "Europe leads consumption; Italy has highest per-capita gelato consumption",
+      "keyInsight": "Artisan gelato is the fastest-growing production method at 21.7% CAGR",
+      "source": "SNS Insider"
+    },
+    "marketTrends_2025_2026": {
+      "plantBased": {
+        "market2025": "USD 4.25 billion",
+        "forecast2030": "USD 10.95 billion",
+        "cagr": "21%",
+        "insight": "Fastest-growing sub-category in gelato"
+      },
+      "artisanGelato": {
+        "cagr": "21.7%",
+        "insight": "Consumers willing to pay 2-3x more for artisanal vs conventional",
+        "trend": "Premiumization driving demand for authentic, handcrafted small-batch production"
+      },
+      "healthTrends": {
+        "lowSugar": "14% CAGR in dairy category claims",
+        "highProtein": "30% CAGR for protein claims in dairy",
+        "functionalIngredients": "Probiotics, superfoods, adaptogens emerging",
+        "cleanLabel": "Natural sweeteners, fewer additives, organic ingredients trending"
+      },
+      "flavorTrends": {
+        "classicShare": "40-42% market share (vanilla, chocolate, strawberry)",
+        "gourmetLimited": "22.4% CAGR — fastest growing flavor segment",
+        "pistachio": "10% growth in social discussions, 60% Google search increase since 2019"
+      },
+      "sustainability": {
+        "ecoPackaging": "Biodegradable cups, recyclable materials becoming standard",
+        "localSourcing": "Locally sourced ingredients and transparent supply chains valued",
+        "carbonReduction": "Carbon footprint reduction is key differentiator"
+      }
+    },
+    "certifications": {
+      "ce": {
+        "directives": [
+          "2006/42/EC (Machinery Directive)",
+          "2014/35/EU (Low Voltage)",
+          "2014/30/EU (EMC)",
+          "EC 1935/2004 (Food Contact Materials)"
+        ],
+        "hygieneStandard": "EN 1672-2:2005+A1:2009",
+        "hygieneRequirements": {
+          "surfaceMaterial": "Stainless steel 304/316L",
+          "surfaceRoughness": "Ra ≤ 0.8 μm",
+          "drainage": "Self-draining, no liquid accumulation",
+          "cleanability": "CIP (Clean-in-Place) systems recommended",
+          "lubricants": "NSF H1 food-grade required",
+          "foodZones": "Three zones: food zone, splash zone, non-food zone"
+        },
+        "safetyStandard": "EN ISO 12100, EN 60204-1",
+        "notifiedBodies": [
+          "TÜV SÜD",
+          "TÜV Rheinland",
+          "SGS",
+          "Bureau Veritas"
+        ]
+      },
+      "ul": {
+        "standard": "UL 197 (Commercial Electric Cooking Appliances)",
+        "scope": "North American market"
+      },
+      "fda": {
+        "regulation": "21 CFR (Food Contact Substances)",
+        "scope": "All food-contact materials must be FDA-compliant"
+      },
+      "rohs": {
+        "directive": "2011/65/EU",
+        "scope": "Restriction of hazardous substances in electrical equipment"
+      }
+    },
+    "technicalStandards": {
+      "compressorTypes": [
+        "Copeland (scroll)",
+        "Bitzer (reciprocating)",
+        "Panasonic (rotary)"
+      ],
+      "efficiencyStandard": "Energy efficiency regulations vary by market (EU Ecodesign, US DOE)",
+      "noiseLimit": "≤ 75 dB(A) per EN ISO 4871 for commercial food machinery",
+      "ipProtection": "At least IP54 in wet processing areas"
+    }
+  },
+  "gelatoScience": {
+    "overrun": {
+      "gelatoRange": "15-30% (dense, intensely flavored)",
+      "hardIceCreamRange": "50-80% (lighter, fluffier)",
+      "keyInsight": "膨胀率是 Gelato 和美式冰淇淋最核心的工艺区别。Gelato 低膨胀率意味着每口更浓的风味和更密的质地。",
+      "source": "Dairy Australia / Food Science"
+    },
+    "batchFreezerParameters": {
+      "batchTime": "10-20 分钟/批次",
+      "drawTemperatureGelato": "-5°C 到 -7°C",
+      "dasherSpeed": "1000-1500 rpm（BEJADY 机器实际参数）",
+      "iceCrystalSize": "20-30 μm（出机时）",
+      "frozenWaterDraw": "~50%（出机时）",
+      "frozenWaterAfterHarden": "75-90%",
+      "refrigerantTemp": "-23°C 到 -29°C",
+      "source": "INFLIBNET / MDPI Foods / Cook & Hartel",
+      "note": "学术文献中的 140-250 rpm 为大型工业批次机参数，商用 Gelato 机实际转速更高"
+    },
+    "airCellDynamics": {
+      "study": "Development of air cells in a batch ice cream freezer (Sofjan & Hartel, 2004)",
+      "journal": "Journal of Food Engineering",
+      "keyFindings": [
+        "Air cell size decreased progressively during freezing — freezing is necessary to stabilize small air cells",
+        "Fat level and emulsifier had no significant effect on air cell size",
+        "Stabilizer led to smaller initial air cells",
+        "Air cell size reduction correlated to slurry viscosity during freezing"
+      ],
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0260877401002436"
+    },
+    "microstructureEvolution": {
+      "study": "Microstructural evolution of ice cream after start-up in a continuous scraped surface freezer (Gallagher & Hartel, 2025)",
+      "journal": "Journal of Food Engineering",
+      "keyFindings": [
+        "Microstructure stabilization occurs around mean residence time (~4.8 min)",
+        "Ice crystallization is the primary driver for microstructure formation",
+        "Ice crystals → increased viscosity → air incorporation → fat destabilization"
+      ],
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0260877425000019"
+    },
+    "unsteadyAgitation": {
+      "study": "Advanced control of microstructure in ice cream by agitation and mixing during freezing process (2024)",
+      "journal": "Chemical Engineering Research and Design",
+      "keyFindings": [
+        "Periodic reversal of rotation direction enhances scraping efficiency",
+        "Improved heat transfer, air entrainment, and fat globule agglomeration",
+        "Better melt resistance through microstructure control"
+      ],
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S026387622400220X"
+    },
+    "gelatoVsIceCream": {
+      "fatGelato": "4-8%",
+      "fatHardIceCream": "10-18%",
+      "sugarGelato": "15-24%",
+      "servingTempGelato": "-10°C 到 -12°C",
+      "servingTempHardIceCream": "-12°C 到 -18°C",
+      "keyDifferences": [
+        "Gelato 脂肪含量低、膨胀率低、出品温度高 — 口感更密、风味更浓",
+        "Gelato 批次冷冻机搅速慢，刻意减少空气混入",
+        "硬冰淇淋批次冷冻机搅速高，最大限度混入空气",
+        "Gelato 出机后直接进展示柜，无需硬化步骤",
+        "硬冰淇淋出机后需在急冻柜硬化到 -18°C"
+      ],
+      "source": "TFI Canada / Yida Catering Equipment"
+    },
+    "artisanProductionGuidelines": {
+      "keyFactors": [
+        "总固形物（糖+乳固形物+稳定剂）决定口感和冰点",
+        "糖体系（蔗糖、葡萄糖、右旋糖）需平衡，避免冰渣或过软",
+        "乳化剂影响脂肪失稳和膨胀率响应",
+        "稳定剂（瓜尔豆胶、刺槐豆胶、卡拉胶）控制抗融性和热冲击",
+        "老化（冷藏4-24小时）对脂肪结晶和稳定剂水化至关重要"
+      ],
+      "batchFreezerWorkflow": [
+        "1. 配好混合液 → 2. 老化 → 3. 倒入批次冷冻机",
+        "4. 冷冻10-20分钟 → 5. 出料进展示柜 → 6. 清洗机器"
+      ],
+      "source": "Tharp & Young on Gelato / Dairy Foods"
+    }
   }
 }
