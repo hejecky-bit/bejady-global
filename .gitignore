@@ -6,3 +6,5 @@ node_modules/
 .env.auto
 .env.local
 content/inquiries/
+sanity/node_modules/
+.sanity/
