@@ -1,0 +1,56 @@
+backend:
+  name: github
+  repo: hejecky-bit/bejady-global
+  branch: v2-design
+  base_url: https://www.bejady.com
+  auth_endpoint: api/auth
+
+media_folder: public/assets/uploads
+public_folder: /assets/uploads
+
+collections:
+  - name: "products"
+    label: "Products / 产品管理"
+    folder: "content/products"
+    create: true
+    format: "json"
+    slug: "{{slug}}"
+    identifier_field: "name"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Language", name: "language", widget: "select", options: ["en", "zh", "ja", "ru"] }
+      - { label: "Description", name: "desc", widget: "text" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Video URL", name: "videoId", widget: "string", required: false }
+      - label: "Features"
+        name: "features"
+        widget: "list"
+        field: { label: "Feature", name: "feature", widget: "string" }
+      - label: "FAQs"
+        name: "faqs"
+        widget: "list"
+        fields:
+          - { label: "Q", name: "q", widget: "string" }
+          - { label: "A", name: "a", widget: "text" }
+  - name: "blog"
+    label: "Blog Posts / 文章管理"
+    folder: "content/blog/en"
+    create: true
+    format: "json"
+    slug: "{{slug}}"
+    identifier_field: "title"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Language", name: "language", widget: "select", options: ["en", "zh", "ja", "ru"] }
+      - { label: "Published At", name: "publishedAt", widget: "datetime" }
+      - { label: "Excerpt", name: "excerpt", widget: "text", required: false }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Categories", name: "categories", widget: "select", multiple: true, options: ["gelato-guide", "industry", "machine-tips", "oem", "business"] }
+      - label: "Content"
+        name: "body"
+        widget: "list"
+        fields:
+          - { label: "Style", name: "style", widget: "select", options: ["h2", "h3", "normal", "bullet", "blockquote"] }
+          - { label: "Text", name: "text", widget: "string" }
