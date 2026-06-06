@@ -22,9 +22,7 @@ export default function Header() {
     <header className="fixed top-0 w-full z-50 glass border-b border-slate-200/50">
       <div className="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
         <Link href={localizedPath(locale, "/")} className="flex items-center gap-2">
-          <span className="text-xl font-extrabold tracking-tight text-slate-800">
-            BEJADY<span className="text-brand-400">.</span>
-          </span>
+          <img src="/assets/baijiadi.png" alt="BEJADY" className="h-10 w-auto" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-10">
